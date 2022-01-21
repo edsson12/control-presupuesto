@@ -31,7 +31,7 @@ function App() {
         setAnimarModal(true);
       }, 500);
     }
-  }, [gastoEditar]);
+  }, [gastoEditar, presupuesto]);
 
 
   useEffect(() => {
